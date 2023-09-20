@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+html,body{
+    font-size: 62,5;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-rendering: optimizeLegibility;
+    height: 100%;
+    width: 100%;
+    
+}
+/* cabeçalho*/
+#cabeçalho{
+    height: 10rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: #87C582;
+}
+input{
+    height: 3rem;
+    width: 20rem;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    border: none;
+
+}
+
+#perfil{
+    margin: 2rem;
+    height: 5rem;
+    width: 5rem;
+}
+
+footer{
+    display: flex;
+}
+/*icones de acesso*/
+
+main{
+
+    margin: 1rem;
+    height: 30rem;
+    width:10rem;
+    background-color: #F3699B;
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+   
+    margin: 3rem;
+}
+
+/*produtos*/
+
+#produtos{
+    display: flex;
+}
+nav{
+    margin: 2rem;
+   
+    
+}
+article{
+    margin: 1rem;
+}
+#maquiagens{
+    height: 10rem;
+    width: 10rem;
+}
+
+#comprar{
+   height: 2rem;
+   width: 5rem;
+   margin-top: 1rem;
+  
+
+}
+
+video{
+    margin: 1rem;
+    width:60rem;
+     height:30rem;
+}
+
+#gif{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    height: 10rem;
+    width: 10rem;
+}
+
+aside{
+    margin: 5rem;
+}
+
+h1{
+    margin-bottom: 3rem;
+}
+
+
