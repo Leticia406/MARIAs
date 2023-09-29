@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+html,body{
+    font-size: 62,5;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-rendering: optimizeLegibility;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    
+}
+/* cabeçalho*/
+#cabeçalho{
+    height: 10rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: #87C582;
+}
+
+
+input{
+    height: 3rem;
+    width: 20rem;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    border: none;
+
+}
+
+#perfil{
+    margin: 2rem;
+    height: 5rem;
+    width: 5rem;
+}
+
+footer{
+    display:flex;
+}
+#flex{
+    display: block;
+   
+
+}
+/*icones de acesso*/
+
+main{
+
+    margin: 2rem;
+    height: 30rem;
+    width:10rem;
+    background-color: #F3699B;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    margin-top: 2rem;
+}
+
+/*produtos*/
+#H1{
+    margin-top: 0;
+}
+#produtos{
+    display: flex;
+    flex-wrap: wrap;
+     overflow:scroll;
+    height: 40rem;
+    width: 80rem;
+    padding: 4rem;
+    
+}
+nav{
+   
+    margin: 1rem;
+    height: 30rem;
+    width: 10rem;
+   
+    
+}
+a{
+    cursor: pointer;
+}
+h2{
+    margin-top: 1rem;
+}
+article{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#maquiagens{
+    height: 10rem;
+    width: 10rem;
+}
+
+
+
+video{
+    margin: 1rem;
+    width:60rem;
+     height:30rem;
+}
+
+#gif{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    height: 10rem;
+    width: 10rem;
+}
+
+/*categorias*/
+#cat{
+    margin-bottom: 0;
+}
+aside{
+    height: 5rem;
+    
+    display: flex;
+    justify-content: center;
+}
+
+#categorias{
+   
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+   
+    
+}
+
+#categoriasimg{
+    height: 6rem;
+    width: 8rem;
+    
+}
+
+#contato{
+    display: block;
+}
+h3{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+   
+
+
