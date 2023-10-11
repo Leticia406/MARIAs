@@ -15,6 +15,7 @@ html,body{
 }
 body{
     display: flex;
+    background-color: #87C582;
 }
 
 img{
@@ -62,5 +63,6 @@ button{
     border-radius: 1rem;
     border: none;
     margin-top: 2rem;
+    cursor: pointer;
 }
 

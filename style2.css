@@ -11,22 +11,34 @@ html,body{
     text-rendering: optimizeLegibility;
     height: 100%;
     width: 100%;
+    overflow: hidden;
+    
     
 }
+
 /* cabeçalho*/
 #cabeçalho{
     height: 10rem;
     display: flex;
-    justify-content: space-around;
+   justify-content:space-around;
     background-color: #87C582;
 }
+
+#imglogo{
+    height: 10rem;
+    width: 10rem;
+    
+   
+}
+
 input{
     height: 3rem;
     width: 20rem;
     padding: 1rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
     border-radius: 1rem;
     border: none;
+   
 
 }
 
@@ -37,13 +49,18 @@ input{
 }
 
 footer{
-    display: flex;
+    display:flex;
+}
+#flex{
+    display: block;
+   
+
 }
 /*icones de acesso*/
 
 main{
 
-    margin: 1rem;
+    margin: 2rem;
     height: 30rem;
     width:10rem;
     background-color: #F3699B;
@@ -51,56 +68,163 @@ main{
     flex-direction: column;
 }
 
-section{
-   
-    margin: 3rem;
+h1{
+    margin-top: 2rem;
 }
 
 /*produtos*/
-
+#H1{
+    margin-top: 0;
+}
 #produtos{
     display: flex;
+    flex-wrap: wrap;
+     overflow:scroll;
+    height: 30rem;
+    width: 80rem;
+   padding: 3rem;
 }
 nav{
-    margin: 2rem;
+   
+    margin: 1rem;
+    height: 20rem;
+    width: 15rem;
    
     
 }
+a{
+    cursor: pointer;
+   
+}
+h2{
+    margin-top: 1rem;
+}
 article{
     margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 #maquiagens{
     height: 10rem;
     width: 10rem;
 }
 
-#comprar{
-   height: 2rem;
-   width: 5rem;
-   margin-top: 1rem;
-  
-
-}
-
-video{
-    margin: 1rem;
+#video{
+    overflow: scroll;
+    overflow-x: hidden;
     width:60rem;
      height:30rem;
+     margin: 2rem;
 }
 
-#gif{
-    margin-top: 1rem;
-    margin-left: 2rem;
+iframe{
+    margin: 2rem 1rem 2rem 2rem;
+    width:45rem;
+     height:25rem;
+     border-radius: 1rem;
+     
+}
+#gifsss{
+    margin: 3rem;
+    height: 30rem;
+   
+
+    
+}
+video{
+    margin: 0.5rem;
+     width: 10rem;
+     height: 10rem;
+   
+}
+
+/*categorias*/
+#cat{
+    margin-bottom: 0;
+}
+aside{
+    height: 5rem;
+    
+    display: flex;
+    justify-content: center;
+}
+
+#categorias{
+   
     height: 10rem;
     width: 10rem;
+    display: flex;
+   
+    
 }
 
-aside{
-    margin: 5rem;
+#categoriasimg{
+    height: 6rem;
+    width: 8rem;
+    
 }
 
-h1{
-    margin-bottom: 3rem;
+#contato{
+   margin: 2rem;
+    display: flex;
+    justify-content:space-between;
+
 }
+h3{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+/* Estilização para a div */
+.container {
+    width: 30rem;
+    height: 20rem;
+    margin: 5rem ; 
+    padding: 0.625rem; 
+    border: 0.125rem solid #ccc; 
+    border-radius: 0.3125rem;
+    
+}
+  
+  /* Estilização para as entradas de texto */
+  .input[type="text"] {
+    width: 100%;
+    padding: 0.3125rem; 
+    margin-bottom: 0.625rem; 
+    border: 0.0625rem solid #ccc; 
+    border-radius: 0.1875rem; 
+  }
+
+/*pagina inicial*/
+
+#inicio{
+    margin: 2rem;
+    display: flex;
+   
+    justify-content: center;
+}
+#imginicio{
+ 
+    height: 30rem;
+    width: 30rem;
+}
+#texto{
+    margin: 3rem;
+    color: rgb(52, 50, 50);
+    text-align:left;
+    
+  
+}
+#redes{
+    
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem;
+}
+p{
+    margin: 3rem;
+}
+   
 
 
